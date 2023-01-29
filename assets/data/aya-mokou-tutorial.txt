@@ -1,0 +1,11 @@
+SUMIREKO->Okay, let me tell you how to use these!
+SUMIREKO->Don't worry about going fast, just focus on cutting left [BUTTON] and right [BUTTON. Gravity will do the rest.)
+MOKOU->I imagine we want to dodge rocks, too. 
+AYA->And trees! Those'll keep ya down for awhile, ayaya. 
+AYA->(Though I could probably knock someone down myself if I tried...[FIND A CERTAIN AREA TO THROW])
+MOKOU->(I'm not sure I can trust that tengu, I'll have to keep an eye out if she tries something. [PRESS BUTTON])
+SUMIREKO->Oh, and if you hit a ramp, you can do some cool tricks if you want![PRESS THE BUTTONS IN ORDER AND ON TIME WHEN THEY APPEAR.]
+SUMIREKO->That should be it!
+AYA->Gotcha!
+MOKOU->Sounds easy enough.
+SUMIREKO->Okay, let's get ready to go then!

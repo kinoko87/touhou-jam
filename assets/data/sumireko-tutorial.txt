@@ -1,0 +1,16 @@
+# SUMIREKO TUTORIAL ONLY (NO DIALOGUE PORTRAITS UNTIL MOKOU TALKS)
+
+SUMIREKO->(Okay, I have to remember how to do
+this.)
+SUMIREKO->(I can cut left (BUTTON) and right
+(BUTTON) to switch lanes.)
+SUMIREKO->(Looks like there's obstacles too, I'll have to be alert. Rocks will get me off-balance, but trees will keep me down for a bit.)
+SUMIREKO->(If someone tries to knock me off with a snowball, I can dodge it[BUTTON].)
+SUMIREKO->(Good thing I can do it back at the right opportunity. [LOOK FOR A SPACE].)
+SUMIREKO->(Hehe, I could show off my moves too on the ramps. [PRESS THE BUTTONS IN ORDER AND ON TIME WHEN THEY APPEAR.])
+SUMIREKO->Okay, I'm ready to go!
+MOKOU->Hey, hold on a second, are you not
+gonna tell us how to use these?
+SUMIREKO->I think you can figure it out!
+AYA->Ah, the confidence of youth.
+MOKOU->... Alrighty then.
