@@ -1,13 +1,14 @@
 global.textstyles = {};
-
+global.gw = 1280;
+global.gh = 720;
 global.textstyles.adv = {
-	x: 320,
-	y: 250,
-	width: 394,
+	x: MIDWID,
+	y: 480,
+	width: 1000,
 	height: 160,
 	spriteposy: 150,
 	namepos: new vec2(147, 250-24),
-	sprite: s_null,
+	sprite: s_textbox,
 	type: st_textadv,
 	font: ft_thefont,
 }

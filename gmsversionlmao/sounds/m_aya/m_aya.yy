@@ -8,6 +8,7 @@
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
+  "duration": 115.76472,
   "volume": 1.0,
   "preload": false,
   "audioGroupId": {
@@ -15,7 +16,6 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_aya.ogg",
-  "duration": 67.75583,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",

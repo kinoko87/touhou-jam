@@ -8,6 +8,7 @@
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
+  "duration": 0.189274,
   "volume": 1.0,
   "preload": false,
   "audioGroupId": {
@@ -15,7 +16,6 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_null.ogg",
-  "duration": 0.189274,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

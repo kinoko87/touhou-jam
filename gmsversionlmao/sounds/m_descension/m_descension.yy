@@ -8,6 +8,7 @@
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
+  "duration": 214.3693,
   "volume": 1.0,
   "preload": false,
   "audioGroupId": {
@@ -15,7 +16,6 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_descension.ogg",
-  "duration": 214.3693,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",

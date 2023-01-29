@@ -9,5 +9,10 @@ notes = [
 ];
 created = false;
 mysong = noone;
-xmod = 16;
+xmod = 32;
 timingwindow = .2;
+count = 0;
+judgement = 0;
+judgementalpha = 0;
+judgementshake = 0;
+combo = 0;
