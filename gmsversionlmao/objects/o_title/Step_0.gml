@@ -1,5 +1,4 @@
 count++;
-
 c_inputupdate();
 c_input();
 pos = cycle(pos+down.hit-up.hit, array_length(choices));

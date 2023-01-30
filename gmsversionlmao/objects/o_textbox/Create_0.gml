@@ -1,3 +1,5 @@
+
+backgrounds = bk_snow;
 textsurf = surface_create(WIDTH, HEIGHT);
 msgscript = txt_;
 msg = [txt()];
