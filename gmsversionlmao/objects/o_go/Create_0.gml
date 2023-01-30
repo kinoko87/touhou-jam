@@ -5,3 +5,4 @@ nu song("mokou", "mokou", [m_okou], 170, "ayayayaya", "./maps/mokou_race.sm");
 nu song("aya", "aya", [m_aya], 170, "ayayayaya", "./maps/aya_dnb.sm");
 c_inputload();
 
+textbox_create(txt_opening);

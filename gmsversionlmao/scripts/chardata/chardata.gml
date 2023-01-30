@@ -32,7 +32,7 @@ function talkchardraw(pos) {
 	if name == "sumireko" position = SPRITEPOS.CENTER;
 	if name == "mokou" position = SPRITEPOS.LEFT;
 	x = o_textbox.x+(position-2)*o_textbox.width/5;
-	log(x, y, position, name);
+	//log(x, y, position, name);
 	if x > 0 && x < room_width && position != SPRITEPOS.HIDDEN {
 		alpha = min(alpha+(1-global.fading*.9), 1);
 	} else {

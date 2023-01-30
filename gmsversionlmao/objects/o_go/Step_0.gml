@@ -6,5 +6,5 @@ if select.hit {
 	//dance_start(mus.aya, 0);
 }
 if back.hit {
-	textbox_create(txt_opening);
+	
 }

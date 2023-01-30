@@ -1,6 +1,7 @@
 function txt_ayawin() {
 	msg = msglang([
 	
+	btxt(bk_title),
 	txt("Ayayaya! I can't wait to get this in the paper!", AYA.EXTREMELYHAPPY),
 	txt("I can see it now... \"HOT ACTION ON THE COOL BREEZE: SNOW BOARD THE LATEST CRAZE!\""),
 	txt("Ha, can you fit all that on the front page?", MOKOU.EXTREMELYHAPPY),
@@ -8,7 +9,7 @@ function txt_ayawin() {
 	txt("Not to worry, you'll look the treat on the front page along with the lovely Usami-chan, ayaya.", AYA.HAPPY),
 	txt("Last thing I expected when I woke up today, but it was nice.", MOKOU.HAPPY),
 	txt("I guess I can read that rag for once if I'm in it. Ha.", MOKOU.EXTREMELYHAPPY),
-	txt("Oh the casuality of those words, it pains me so.", AYA.EXTREMESAD),
+	txt("Oh the casuality of those words, it pains me so.", AYA.EXTREMELYSAD),
 	txt("Can I take a photo home, Miss Aya?", SUMIREKO.NEUTRAL),
 	txt("I'll give it to ya tomorrow with the paper once I process 'em. How's that sound?", AYA.NEUTRAL),
 	txt("Okay!", SUMIREKO.HAPPY),
@@ -21,6 +22,7 @@ function txt_ayawin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Ayayaya! Mal posso esperar pra botar isso no jornal!", AYA.EXTREMELYHAPPY),
 	txt("Eu já consigo ver... \"ATIVIDADE CALOROSA NA BRISA GÉLIDA: SNOW BOARD A FEBRE DO MOMENTO!\""),
 	txt("Ha, e cabe tudo isso na capa?", MOKOU.EXTREMELYHAPPY),
@@ -28,7 +30,7 @@ function txt_ayawin() {
 	txt("Não se preocupe, você vai brilhar na capa junto da adorável Usami-chan, ayaya.", AYA.HAPPY),
 	txt("Não esperava nada disso quando eu acordei hoje, mas foi legal.", MOKOU.HAPPY),
 	txt("Acho que eu finalmente posso ler esse trapo se eu tiver nele. Ha.", MOKOU.EXTREMELYHAPPY),
-	txt("Falar isso com tanta sinceridade… Dói demais.", AYA.EXTREMESAD),
+	txt("Falar isso com tanta sinceridade… Dói demais.", AYA.EXTREMELYSAD),
 	txt("Posso levar uma foto para casa senhorita Aya?", SUMIREKO.NEUTRAL),
 	txt("Eu te dou amanhã junto do jornal depois que eu organizar tudo. Pode ser?", AYA.NEUTRAL),
 	txt("Aham!", SUMIREKO.HAPPY),
@@ -41,6 +43,7 @@ function txt_ayawin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Ayayaya! ¡Estoy deseando que salga esto en el periódico!", AYA.EXTREMELYHAPPY),
 	txt("Ya puedo verlo... \"ACCIÓN CALIENTE EN LA BRISA FRESCA: ¡EL SNOWBOARD LA ÚLTIMA MODA!\"."),
 	txt("Ja, ¿puedes meter todo eso en la portada?", MOKOU.EXTREMELYHAPPY),
@@ -48,7 +51,7 @@ function txt_ayawin() {
 	txt("No te preocupes, quedarás de lujo en la portada junto con la encantadora Usami, ayaya.", AYA.HAPPY),
 	txt("Lo último que esperaba al despertarme hoy, pero ha sido agradable.", MOKOU.HAPPY),
 	txt("Supongo que podré leer ese periodicucho por una vez si salgo en él. Ja.", MOKOU.EXTREMELYHAPPY),
-	txt("Oh la casualidad de esas palabras, me duele tanto.", AYA.EXTREMESAD),
+	txt("Oh la casualidad de esas palabras, me duele tanto.", AYA.EXTREMELYSAD),
 	txt("¿Puedo llevarme una foto a casa, Srta. Aya?", SUMIREKO.NEUTRAL),
 	txt("Te la daré mañana con el periódico una vez que las procese. ¿Qué te parece?", AYA.NEUTRAL),
 	txt("¡De acuerdo!", SUMIREKO.HAPPY),
@@ -61,5 +64,5 @@ function txt_ayawin() {
 	
 	]);
 	
-	endevent = c_null;
+	endevent = function() {room_goto(title)};
 }

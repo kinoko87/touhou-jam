@@ -1,12 +1,13 @@
 function txt_mokouwin() {
 	msg = msglang([
 	
+	btxt(bk_title),
 	txt("Oh hey, I made it down first. Would you look at that?", MOKOU.EXTREMELYHAPPY),
 	txt("Wow, how'd you pick up on that so quickly!?", SUMIREKO.FROWN),
-	txt("Do tell, Fujiawara-san!", AYA,HAPPY),
+	txt("Do tell, Fujiawara-san!", AYA.HAPPY),
 	txt("Heh, sorry, it's my little secret.", MOKOU.HAPPY),
 	txt("Ya got some cool confidence for such a fiery individual. You sure are a fascinatin' subject, ayaya.", AYA.EXTREMELYHAPPY),
-	txt("You... caught me a little rusty, I'm sure I can get you next time, Mokou!", SUMIREKO.EXTREMESAD),
+	txt("You... caught me a little rusty, I'm sure I can get you next time, Mokou!", SUMIREKO.EXTREMELYSAD),
 	txt("Huh, you seem flustered. I didn't realize it was a race, Usami.", MOKOU.EXTREMELYHAPPY),
 	txt("I--I, uh...", SUMIREKO.NEUTRAL),
 	txt("Don't worry about it, I had fun."),
@@ -21,12 +22,13 @@ function txt_mokouwin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Ei, olha só, eu cheguei aqui primeiro!", MOKOU.EXTREMELYHAPPY),
 	txt("Uau, como você é tão boa nisso, tão rápido assim!?", SUMIREKO.FROWN),
-	txt("É, me conta Fujiawara-san!", AYA,HAPPY),
+	txt("É, me conta Fujiawara-san!", AYA.HAPPY),
 	txt("Heh, desculpa, é segredo.", MOKOU.HAPPY),
 	txt("Não adianta dar uma de fria quando se é tão fogosa, ayaya! Você é uma figura mesmo.", AYA.EXTREMELYHAPPY),
-	txt("Eu… só estou um pouco enferrujada, tenho certeza de que te pego na próxima vez, Mokou!", SUMIREKO.EXTREMESAD),
+	txt("Eu… só estou um pouco enferrujada, tenho certeza de que te pego na próxima vez, Mokou!", SUMIREKO.EXTREMELYSAD),
 	txt("Ué, você parece frustrada. Eu não sabia que era uma corrida, Usami.", MOKOU.EXTREMELYHAPPY),
 	txt("E-eu, um...", SUMIREKO.NEUTRAL),
 	txt("Não se preocupe com isso, eu me diverti."),
@@ -41,12 +43,13 @@ function txt_mokouwin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Yo bajé primero. ¿Quieres mirar eso?", MOKOU.EXTREMELYHAPPY),
 	txt("¿Cómo te has dado cuenta tan rápido?", SUMIREKO.FROWN),
-	txt("¡Cuéntenoslo, Srta. Fujiawara!", AYA,HAPPY),
+	txt("¡Cuéntenoslo, Srta. Fujiawara!", AYA.HAPPY),
 	txt("Lo siento, es mi pequeño secreto.", MOKOU.HAPPY),
 	txt("Tienes una confianza genial para ser un individuo tan fogoso. Eres un sujeto fascinante, ayaya.", AYA.EXTREMELYHAPPY),
-	txt("Tú... me has pillado un poco oxidado, ¡estoy seguro de que podré contigo la próxima vez, Mokou!", SUMIREKO.EXTREMESAD),
+	txt("Tú... me has pillado un poco oxidado, ¡estoy seguro de que podré contigo la próxima vez, Mokou!", SUMIREKO.EXTREMELYSAD),
 	txt("¿Hmm? Pareces enfadado. No me había dado cuenta de que era una carrera, Usami", MOKOU.EXTREMELYHAPPY),
 	txt("Yo, eh...", SUMIREKO.NEUTRAL),
 	txt("No te preocupes, me divertí."),
@@ -61,5 +64,5 @@ function txt_mokouwin() {
 	
 	]);
 	
-	endevent = c_null;
+	endevent = function() {room_goto(title)};
 }

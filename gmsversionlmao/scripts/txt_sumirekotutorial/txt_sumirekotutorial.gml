@@ -1,6 +1,7 @@
 function txt_sumirekotutorial() {
 	msg = msglang([
 	
+	btxt(bk_cabin),
 	txt("(Okay, I have to remember how to do this.)"),
 	txt("Looks like there's a lot of rocks and trees... I can jump over the rocks, but the trees will hurt.)"),
 	txt("(I can cut left [LEFT ARROW BUTTON] and right [RIGHT ARROW BOTTON], or duck [DOWN ARROW BUTTON] to switch lanes and avoid them.)"),
@@ -13,6 +14,7 @@ function txt_sumirekotutorial() {
 	
 	],[
 	
+	btxt(bk_cabin),
 	txt("(Ok, tenho que me lembrar de como fazer isso.)"),
 	txt("Parece que tem um monte de pedras e árvores… Eu posso pular sobre as pedras, mas as árvores vão machucar.)"),
 	txt("(Eu posso cortar para esquerda [SETA PARA ESQUERDA] e direita [SETA PARA DIREITA], ou abaixar [SETA PARA BAIXO] para mudar de faixas e desviar delas.)"),
@@ -25,6 +27,7 @@ function txt_sumirekotutorial() {
 	
 	],[
 	
+	btxt(bk_cabin),
 	txt("(Vale, tengo que recordar cómo hacer esto.)"),
 	txt("Parece que hay muchas rocas y árboles... Puedo saltar por encima de las rocas, pero los árboles me harán daño.)"),
 	txt("(Puedo cortar a la izquierda [BOTÓN FLECHA IZQUIERDA] y a la derecha [BOTÓN FLECHA DERECHA], o agacharme [BOTÓN FLECHA ABAJO] para cambiar de carril y evitarlos.)"),

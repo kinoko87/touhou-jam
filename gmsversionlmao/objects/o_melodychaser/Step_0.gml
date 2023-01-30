@@ -76,6 +76,24 @@ if ncm(60-irandom(30)) {
 	instance_create(WIDTH+140, HEIGHT-110, o_bgthing);
 }
 
+if !array_length(notes) {
+	switch global.playablechoice {
+		case "sumireko":
+			textbox_create(txt_sumirekowin);
+			break;
+		case "mokou":
+			textbox_create(txt_mokouwin);
+			break;
+		case "aya":
+			textbox_create(txt_ayawin);
+			break;
+	}
+	music_set(mus.null);
+	instance_destroy(o_dude);
+	instance_destroy(o_bgthing);
+	se_play(se_win);
+	kys;
+}
 
 
 /*if special.hold && left.hit {

@@ -1,6 +1,8 @@
 /*iterate choices to {
 	draw_text(100+i*300, 200, choices[i] + (pos == i ? "<" : ""));
-}*/
+}*/draw_set_color(c_black);
+
+draw_text(200, 160, "Pick your rider!");
 
 draw_set_alpha(!pos+.4);
 draw_sprite(s_sumirekotalk, 3, WIDTH*.25, MIDHEI);

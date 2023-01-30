@@ -1,6 +1,8 @@
 function txt_opening() {
+	se_play(se_wintersound);
 	msg = msglang([
 	
+	btxt(bk_title),
 	txt("What an enchanting sight.", SUMIREKO.HAPPY),
 	txt("You really don't see anything like this back home in Kanto.", SUMIREKO.NEUTRAL),
 	txt("Though there are some things I miss. I wonder..."),
@@ -58,6 +60,7 @@ function txt_opening() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Que vista encantadora.", SUMIREKO.HAPPY),
 	txt("Não tem nada igual lá em casa, em Kanto.", SUMIREKO.NEUTRAL),
 	txt("Apesar de ter algumas coisas que sinto falta. Será que..."),
@@ -115,9 +118,66 @@ function txt_opening() {
 	
 	],[
 	
-
+	btxt(bk_title),
+	txt("Que vista encantadora.", SUMIREKO.HAPPY),
+	txt("Não tem nada igual lá em casa, em Kanto.", SUMIREKO.NEUTRAL),
+	txt("Apesar de ter algumas coisas que sinto falta. Será que..."),
+	txt("Ha! Que gênia sou!", SUMIREKO.EXTREMELYHAPPY),
+	txt("Ah, então é isso que está fazendo todo esse barulho. E eu aqui querendo uma caminhada tranquila."),
+	txt("O qu--", SUMIREKO.NEUTRAL),
+	txt("Ora, é você, a garota psíquica. Usami, né?", MOKOU.NEUTRAL),
+	txt("S-sim… Usami Sumireko. V-você viu tudo aquilo, Mokou?"),
+	txt("Difícil não ver, foi um clarão bem desagradável.", MOKOU.FROWN),
+	txt("(Ai cara, eu deveria ser mais sutil.)", SUMIREKO.EXTREMELYSAD),
+	txt("O que você tem aí?", MOKOU.NEUTRAL),
+	txt("Ah, isso? Um snowboard!", SUMIREKO.HAPPY/*was smile*/),
+	txt("Um... Snow Board?", MOKOU.MOUTHOPEN),
+	txt("Sim! É um esporte de inverno bem popular lá em casa."),
+	txt("Como você joga isso?", MOKOU.NEUTRAL),
+	txt("Você não joga, você anda nele.", SUMIREKO.NEUTRAL),
+	txt("... Andar onde?", MOKOU.MOUTHOPEN),
+	txt("Ladeira abaixo, é claro.", SUMIREKO.HAPPY/*was smile*/),
+	txt("Meh, não parece muito legal.", MOKOU.FROWN),
+	txt("(Ah, verdade, todo mundo voa por essas partes, não é mesmo?)", SUMIREKO.NEUTRAL),
+	txt("... Eu poderia demonstrar para você, se quiser.", SUMIREKO.HAPPY/*was smile*/),
+	txt("Hmm, não sei, parece um pouco arriscado. E seria bom se eu não tivesse que reencarnar hoje.", MOKOU.EXTREMELYSAD),
+	txt("Ayayaya, o que temos aqui?", AYA.EXTREMELYHAPPY),
+	txt("Ah ótimo, é a fofoqueira local."),
+	txt("Ah qual é, Fujiwara-san, eu não sou assim.", AYA.FROWN),
+	txt("Eu costumo passar aqui cedo de manhã, e eu vi vocês duas aqui então pensei em dizer um oi!", AYA.HAPPY),
+	txt("... Eu realmente não esperava que chamaria tanta atenção hoje. Me desculpe.", SUMIREKO.EXTREMELYSAD),
+	txt("Aha! A famosa gênia psíquica em carne e osso, Usami Sumireko! Tava pensando quem tinha mandado toda aquela magia roxa."),
+	txt("O que tu quer?", MOKOU.FROWN),
+	txt("Ai, nada de mais, só atrás de uns furos pro Jornal Bunbunmanru, o de sempre!", AYA.EXTREMELYHAPPY),
+	txt("Sabe, não é sempre que a Usami-chan nos dá a graça de sua presença por aqui. E ela tá segurando um troço também!", AYA.HAPPY),
+	txt("Você quer dizer meu snowboard?", SUMIREKO.NEUTRAL),
+	txt("Snow Board... Como se joga isso?", AYA.FROWN),
+	txt("Você não joga, você anda nele."),
+	txt("Não é um esporte de inverno popular de onde você veio, Usami-chan?"),
+	txt("S-sim, como você sabia disso?", SUMIREKO.HAPPY),
+	txt("Ayaya, eu ouvi nos ventos por aí. Nada escapa as orelhas afiadas de tengu da honorável Shameimaru Aya!", AYA.EXTREMELYHAPPY),
+	txt("Ei, Usami-chan, pode me mostrar como isso funciona? Eu tava querendo tirar umas fotos do cotidiano pro jornal, e isso seria perfeito!", AYA.HAPPY),
+	txt("Claro! Eu estava falando para a Mokou quão divertido é antes de você chegar aqui.", SUMIREKO.HAPPY),
+	txt("..."),
+	txt("Aii Fujiwara-san, não tem como você recusar um convite de uma docinho de coco dessas.", AYA.NEUTRAL),
+	txt("(Ela não faz ideia do nosso passado, hein?)"),
+	txt("Você ficaria bem maneira na foto também. Que tal, hein?", AYA.EXTREMELYHAPPY),
+	txt("... Acho que seria mais rápido descer a montanha desse jeito do que a pé. Por que não?", MOKOU.NEUTRAL),
+	txt("Ótimo! Se importa em conjurar um pra mim também? Entender essas coisas botando a mão na massa é essencial para ser uma boa repórter.", AYA.HAPPY),
+	txt("Só fala que você queria se juntar à nós logo.", MOKOU.HAPPY) ,
+	txt("Ayaya, Tô no meu expediente. Preciso perguntar pra não me encrencar.") ,
+	txt("Claro, claro, eu posso fazer isso por você, senhorita Aya.") ,
+	txt("Aqui está!"),
+	txt("Agradecida!"),
+	txt("Valeu.") ,
+	txt("(Minha nossa, eu vou ter que lembrar como fazer isso.)", SUMIREKO.EXTREMELYSAD) ,
+	txt("Pronta quando você estiver, Usami.", MOKOU.NEUTRAL),
+	txt("Pera aí vocês duas, vou garantir de tirar uma foto boa antes de descermos!", AYA.EXTREMELYHAPPY),
 	
 	]);
 	
-	endevent = function() {observer_create(o_charselect)};
+	endevent = function() {
+		audio_stop_all();
+		observer_create(o_charselect)
+	};
 }

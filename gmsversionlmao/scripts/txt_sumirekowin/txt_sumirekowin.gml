@@ -1,6 +1,7 @@
 function txt_sumirekowin() {
 	msg = msglang([
 	
+	btxt(bk_title),
 	txt("Aha, I've still got it!", SUMIREKO.EXTREMELYHAPPY),
 	txt("... That was... interesting.", MOKOU.NEUTRAL),
 	txt("I think I got some good shots of ya, Usami-chan! Though I'd've loved some from bein' in front. Maybe next time!", AYA.HAPPY),
@@ -19,6 +20,7 @@ function txt_sumirekowin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("Aha, ainda consigo!", SUMIREKO.EXTREMELYHAPPY),
 	txt("... Isso foi... interessante.", MOKOU.NEUTRAL),
 	txt("Acho que tirei umas fotos boas de você, Usami-chan! Apesar de que eu teria amado tirar algumas na frente. Talvez na próxima!", AYA.HAPPY),
@@ -37,6 +39,7 @@ function txt_sumirekowin() {
 	
 	],[
 	
+	btxt(bk_title),
 	txt("¡Ajá, todavía lo tengo!", SUMIREKO.EXTREMELYHAPPY),
 	txt("... Huh, eso fue bastante interesante. ", MOKOU.NEUTRAL),
 	txt("¡Creo que te he sacado unas buenas fotos, Usami! Aunque me habría encantado tener algunas desde delante. Quizá la próxima vez.", AYA.HAPPY),
@@ -55,5 +58,5 @@ function txt_sumirekowin() {
 	
 	]);
 	
-	endevent = c_null;
+	endevent = function() {room_goto(title)};
 }
