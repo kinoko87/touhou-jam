@@ -6,7 +6,7 @@ function st_textadv() {
 	draw_set_halign(fa_center);
 	draw_text(namepos.x, namepos.y, talkers[0].displayname);
 	draw_set_halign(fa_left);
-	draw_set_color(c_black);
+	draw_set_color(c_white);
 	
 	var xpos = 0;
 	var lb = 0;
@@ -21,8 +21,8 @@ function st_textadv() {
 	size = 1;
 	angle = 0;
 	alpha = 1;
-	color = c_black;
-	color2 = c_black;
+	color = c_white;
+	color2 = c_white;
 	textpos = new vec2();
 	var mychar = ""
 	for (i=1; i<=charpos; i++) {

@@ -40,6 +40,15 @@ function sm_parse(path) {
 			}
 		}
 	}
+	var usedtimes = [];
+	iterate tempnotes to {
+		if array_contains(usedtimes, tempnotes[i].time) {
+			array_delete(tempnotes, i, 1);
+			i--;
+		} else {
+			array_push(usedtimes, tempnotes[i].time);
+		}
+	}
 	return tempnotes;
 }
 

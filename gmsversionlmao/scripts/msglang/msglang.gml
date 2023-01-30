@@ -1,4 +1,4 @@
-function msglang(english, japanese=[txt()], language=global.lang) {
+function msglang(english, japanese=[txt()], whatever=[txt()], language=global.lang) {
 	return array_insert_array_parse(argument[language-1]);
 	/*switch language {
 		case LANGUAGE.ENGLISH:
@@ -17,6 +17,7 @@ function msglang(english, japanese=[txt()], language=global.lang) {
 enum LANGUAGE {
 	NULL,
 	ENGLISH,
+	PORTUGUESE,
 	JAPANESE,
 	BREAD,
 }

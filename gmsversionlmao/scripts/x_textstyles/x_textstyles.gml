@@ -4,10 +4,10 @@ global.gh = 720;
 global.textstyles.adv = {
 	x: MIDWID,
 	y: 480,
-	width: 1000,
+	width: 920,
 	height: 160,
-	spriteposy: 150,
-	namepos: new vec2(147, 250-24),
+	spriteposy: MIDHEI,
+	namepos: new vec2(245, 415),
 	sprite: s_textbox,
 	type: st_textadv,
 	font: ft_thefont,
