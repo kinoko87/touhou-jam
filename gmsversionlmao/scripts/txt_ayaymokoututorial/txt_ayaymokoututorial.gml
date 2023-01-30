@@ -38,6 +38,8 @@ function txt_ayaymokoututorial() {
 	]);
 	
 	endevent = function() {
+	var bazinga = layer_get_id("Slope");
+	layer_set_visible(bazinga, visible);
 		if global.playablechoice == "mokou" {
 			dance_start(mus.mokou, 0);
 		} else {
