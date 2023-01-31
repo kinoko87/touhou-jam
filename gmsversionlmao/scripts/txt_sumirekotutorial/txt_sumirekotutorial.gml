@@ -41,6 +41,8 @@ function txt_sumirekotutorial() {
 	]);
 	
 	endevent = function() {
+	var bazinga = layer_get_id("Slope");
+	layer_set_visible(bazinga, visible);
 		dance_start(mus.sumireko, 0);
 	};
 }

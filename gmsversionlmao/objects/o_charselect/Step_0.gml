@@ -11,5 +11,6 @@ if select.hit {
 			textbox_create(txt_ayaymokoututorial);
 			break;
 	}
+
 	kys;
 }
