@@ -20,13 +20,13 @@ function c_inputupdate() {
 }
 
 function c_inputload() {
-	nu kinput("left", [vk_left, "J"]);
-	nu kinput("down", [vk_down, "K"]);
-	nu kinput("up", [vk_up, "I"]);
-	nu kinput("right", [vk_right, "L"]);
-	nu kinput("select", ["Z", "A", vk_enter]);
+	nu kinput("left", [vk_left, "J", gp_padl, gp_face2]);
+	nu kinput("down", [vk_down, "K", gp_padd, gp_face1]);
+	nu kinput("up", [vk_up, "I", gp_padu, gp_face4]);
+	nu kinput("right", [vk_right, "L", gp_padr, gp_face3]);
+	nu kinput("select", ["Z", "A", vk_enter, gp_start, gp_face1]);
 	nu kinput("back", ["X", "S", vk_escape]);
-	nu kinput("skip", ["C", "D", vk_control, gp_select]);
+	nu kinput("skip", ["C", "D", vk_control, gp_select, gp_face3]);
 }
 
 function kinput(name_, keys_) constructor {
