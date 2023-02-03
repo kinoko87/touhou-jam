@@ -65,6 +65,7 @@
     {"name":"munction","path":"scripts/munction/munction.yy","order":11,},
     {"name":"s_rock1","path":"sprites/s_rock1/s_rock1.yy","order":1,},
     {"name":"spr_Particle_Snow_Small","path":"sprites/spr_Particle_Snow_Small/spr_Particle_Snow_Small.yy","order":8,},
+    {"name":"m_title","path":"sounds/m_title/m_title.yy","order":8,},
     {"name":"log","path":"scripts/log/log.yy","order":9,},
     {"name":"s_ayamiss","path":"sprites/s_ayamiss/s_ayamiss.yy","order":26,},
     {"name":"s_mokoujump","path":"sprites/s_mokoujump/s_mokoujump.yy","order":13,},

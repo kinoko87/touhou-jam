@@ -78,6 +78,7 @@
     {"id":{"name":"munction","path":"scripts/munction/munction.yy",},"order":0,},
     {"id":{"name":"s_rock1","path":"sprites/s_rock1/s_rock1.yy",},"order":0,},
     {"id":{"name":"spr_Particle_Snow_Small","path":"sprites/spr_Particle_Snow_Small/spr_Particle_Snow_Small.yy",},"order":0,},
+    {"id":{"name":"m_title","path":"sounds/m_title/m_title.yy",},"order":0,},
     {"id":{"name":"log","path":"scripts/log/log.yy",},"order":0,},
     {"id":{"name":"quit","path":"sprites/quit/quit.yy",},"order":5,},
     {"id":{"name":"s_ayamiss","path":"sprites/s_ayamiss/s_ayamiss.yy",},"order":0,},

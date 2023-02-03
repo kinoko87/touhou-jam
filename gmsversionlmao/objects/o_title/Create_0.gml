@@ -5,3 +5,4 @@ choices = [
 	"Portuguese",
 	"Spanish",
 ]
+music_set(mus.title);

@@ -1,9 +1,9 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "se_win",
+  "name": "m_title",
   "conversionMode": 0,
-  "compression": 0,
+  "compression": 3,
   "type": 0,
   "sampleRate": 44100,
   "bitDepth": 1,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "se_win.ogg",
-  "duration": 22.588255,
+  "soundFile": "m_title.ogg",
+  "duration": 99.0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Music",
+    "path": "folders/Music.yy",
   },
 }
